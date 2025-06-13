@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## 📦 @imperia/bot@1.0.2 (June 13, 2025)
+
+
+### 🔹 <!-- 4 -->Bug Fixes
+
+-  Correct environment variable name for Discord bot token ([`81178e6`](https://github.com/yehezkieldio/imperia-ai/commit/81178e6a632cd4bc5e441d2630927325aabf0f59))
+
+[[Compare Changes]](https://github.com/yehezkieldio/imperia-ai/compare/@imperia/bot@1.0.1...@imperia/bot@1.0.2) · [[View Source]](https://github.com/yehezkieldio/imperia-ai/tree/@imperia/bot@1.0.2)
 ## 📦 @imperia/bot@1.0.1 (June 13, 2025)
 
 
