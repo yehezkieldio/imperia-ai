@@ -54,13 +54,18 @@ export class ChatCommand extends Command {
     }
 
     private async inference(prompt: string): Promise<string> {
-        const response = await generateText({
-            model,
-            system: SYSTEM_PROMPT,
-            prompt: prompt
-        });
+        try {
+            const response = await generateText({
+                model,
+                system: SYSTEM_PROMPT,
+                prompt: prompt
+            });
 
-        return response.text;
+            return response.text;
+        } catch (error) {
+            console.error("Inference error:", error);
+            throw new Error("Failed to generate response from Imperia.");
+        }
     }
 
     public async chatInputRun(interaction: Command.ChatInputCommandInteraction) {

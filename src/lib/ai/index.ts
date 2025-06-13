@@ -7,13 +7,13 @@ import { togetherDeepseek } from "#/lib/ai/models/together";
 
 export const model = createFallback({
     models: [
-        groqLlama370bVersatile,
-        groqLlama4Scout,
         googleGemini25Flash,
         googleGemini25Pro,
         mistralMistralLarge,
         hyperbolicDeepseek,
-        togetherDeepseek
+        togetherDeepseek,
+        groqLlama370bVersatile,
+        groqLlama4Scout
     ],
     retryAfterOutput: true,
     onError: (error, modelId) => {
