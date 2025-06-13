@@ -71,6 +71,7 @@ commit_parsers = [
   { message = ".*deprecated", body = ".*deprecated", group = "Deprecation" }
 ]
 filter_commits = false
+tag_pattern = "@imperia/bot@[0-9]*"
 ignore_tags = ""
 topo_order = false
 sort_commits = "newest"
