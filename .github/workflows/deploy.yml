@@ -68,7 +68,7 @@ jobs:
             --memory 1.5 \
             --restart-policy Always \
             --environment-variables \
-              DISCORD_TOKEN=${{ secrets.DISCORD_BOT_TOKEN }} \
+              DISCORD_BOT_TOKEN=${{ secrets.DISCORD_BOT_TOKEN }} \
               NODE_ENV=production \
               GROQ_API_KEY=${{ secrets.GROQ_API_KEY }} \
               GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }} \
