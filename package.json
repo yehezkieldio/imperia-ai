@@ -9,7 +9,8 @@
         "@biomejs/biome": "^2.0.0-beta.6",
         "@total-typescript/ts-reset": "^0.6.1",
         "@types/bun": "latest",
-        "@types/node": "^24.0.1"
+        "@types/node": "^24.0.1",
+        "@yehezkieldio/artemis": "^1.0.1"
     },
     "peerDependencies": {
         "typescript": "^5"
