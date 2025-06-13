@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## 📦 @imperia/bot@1.0.1 (June 13, 2025)
+
+
+### 🔹 <!-- 16 -->CI/CD Configuration
+
+-  Update Azure deployment workflow and Docker actions versions ([`c62d2af`](https://github.com/yehezkieldio/imperia-ai/commit/c62d2af8a217e35891130aa3684fe8cfe985eaea))
+
+[[Compare Changes]](https://github.com/yehezkieldio/imperia-ai/compare/@imperia/bot@1.0.0...@imperia/bot@1.0.1) · [[View Source]](https://github.com/yehezkieldio/imperia-ai/tree/@imperia/bot@1.0.1)
 ## 📦 @imperia/bot@1.0.0 (June 13, 2025)
 
 
