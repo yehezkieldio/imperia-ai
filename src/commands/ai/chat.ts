@@ -57,7 +57,7 @@ export class ChatCommand extends Command {
         const response = await generateText({
             model,
             system: SYSTEM_PROMPT,
-            prompt
+            prompt: prompt
         });
 
         return response.text;

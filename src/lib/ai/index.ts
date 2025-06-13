@@ -15,6 +15,7 @@ export const model = createFallback({
         hyperbolicDeepseek,
         togetherDeepseek
     ],
+    retryAfterOutput: true,
     onError: (error, modelId) => {
         console.error(`Error with model ${modelId}:`, error);
     },
