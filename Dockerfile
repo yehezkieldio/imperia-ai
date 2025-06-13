@@ -1,4 +1,4 @@
-FROM imbios/bun-node:latest-current-slim AS deps
+FROM imbios/bun-node:latest-current-debian AS deps
 
 ARG DEBIAN_FRONTEND=noninteractive
 
