@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## 📦 @imperia/bot@1.0.3 (June 13, 2025)
+
+
+### 🔹 <!-- 17 -->Miscellaneous Changes
+
+-  Update base image for dependencies to latest-current-debian ([`6e1db42`](https://github.com/yehezkieldio/imperia-ai/commit/6e1db426a46b216b72b23e07946e860e797cc09c))
+
+### 🔹 <!-- 4 -->Bug Fixes
+
+- **chat:** Ensure prompt is correctly passed to generateText function ([`6ab21f8`](https://github.com/yehezkieldio/imperia-ai/commit/6ab21f86323085868f1b5aeb3f84c6fc134f3625))
+
+[[Compare Changes]](https://github.com/yehezkieldio/imperia-ai/compare/@imperia/bot@1.0.2...@imperia/bot@1.0.3) · [[View Source]](https://github.com/yehezkieldio/imperia-ai/tree/@imperia/bot@1.0.3)
 ## 📦 @imperia/bot@1.0.2 (June 13, 2025)
 
 
